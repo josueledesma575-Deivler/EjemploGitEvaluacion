@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace EjemploGitEvaluacion
 {
@@ -9,8 +9,6 @@ namespace EjemploGitEvaluacion
             Calculadora calc = new Calculadora();
             int resultado = calc.Sumar(5, 7);
             Console.WriteLine($"El resultado de la suma es: {resultado}");
-            int resultadoResta = calc.Restar(10, 3);
-            Console.WriteLine($"El resultado de la resta es: {resultadoResta}");
         }
     }
 
@@ -20,7 +18,5 @@ namespace EjemploGitEvaluacion
         {
             return a + b; // Aquí experimentamos y creamos la solución
         }
-         public int Restar(int a, int b)
- { return a - b; }
     }
 }
